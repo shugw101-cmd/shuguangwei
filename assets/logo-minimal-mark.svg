@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">舒广伟律师极简标志</title>
+  <desc id="desc">以舒字和医法分界线构成的极简标志</desc>
+  <rect width="180" height="180" rx="28" fill="#102b2e"/>
+  <path d="M45 45 H135 V135 H45 Z" fill="none" stroke="#b9854a" stroke-width="5"/>
+  <path d="M90 38 V142" stroke="#f2d5aa" stroke-width="4" stroke-linecap="round" opacity="0.86"/>
+  <text x="90" y="114" text-anchor="middle" fill="#ffffff" font-family="'LXGW WenKai','STKaiti','KaiTi','Microsoft YaHei',sans-serif" font-size="76" font-weight="700">舒</text>
+</svg>

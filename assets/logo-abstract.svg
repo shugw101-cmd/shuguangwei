@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">舒广伟律师抽象 Logo 方案</title>
+  <desc id="desc">不使用汉字，以医疗、法律和专业判断路径构成的抽象标志</desc>
+  <rect width="720" height="180" fill="#fbfaf6"/>
+  <g transform="translate(50 36)">
+    <rect x="0" y="0" width="108" height="108" rx="22" fill="#102b2e"/>
+    <path d="M30 31 H78 V77 H30 Z" fill="none" stroke="#f2d5aa" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M26 54 H42 L50 42 L61 70 L70 54 H82" fill="none" stroke="#b9854a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M54 20 V88" fill="none" stroke="#f2d5aa" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+    <path d="M87 87 L101 101" fill="none" stroke="#f2d5aa" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="82" cy="82" r="13" fill="none" stroke="#f2d5aa" stroke-width="5"/>
+  </g>
+  <g transform="translate(194 48)">
+    <text x="0" y="46" fill="#102b2e" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Microsoft YaHei',Arial,sans-serif" font-size="38" font-weight="800">舒广伟律师</text>
+    <text x="1" y="88" fill="#536168" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="500">医疗健康法律服务</text>
+    <path d="M2 112 H276" fill="none" stroke="#b9854a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

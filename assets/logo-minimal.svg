@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">舒广伟律师极简 Logo 方案</title>
+  <desc id="desc">以舒字、医法分界线和克制印章结构构成的极简个人品牌 Logo</desc>
+  <rect width="720" height="180" fill="#fbfaf6"/>
+  <g transform="translate(48 34)">
+    <rect x="0" y="0" width="112" height="112" rx="18" fill="#102b2e"/>
+    <path d="M28 28 H84 V84 H28 Z" fill="none" stroke="#b9854a" stroke-width="3"/>
+    <path d="M56 24 V88" stroke="#f2d5aa" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+    <text x="56" y="73" text-anchor="middle" fill="#ffffff" font-family="'LXGW WenKai','STKaiti','KaiTi','Microsoft YaHei',sans-serif" font-size="48" font-weight="700">舒</text>
+  </g>
+  <g transform="translate(194 48)">
+    <text x="0" y="46" fill="#102b2e" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Microsoft YaHei',Arial,sans-serif" font-size="38" font-weight="800">舒广伟律师</text>
+    <text x="1" y="88" fill="#536168" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="500">医疗健康法律服务</text>
+    <path d="M2 112 H276" fill="none" stroke="#b9854a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

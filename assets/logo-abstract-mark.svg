@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">医疗法律抽象标志</title>
+  <desc id="desc">以文书、医学曲线、分界线和审查视角构成的抽象标志</desc>
+  <rect width="180" height="180" rx="34" fill="#102b2e"/>
+  <path d="M51 51 H129 V127 H51 Z" fill="none" stroke="#f2d5aa" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M44 90 H70 L82 70 L101 115 L116 89 H137" fill="none" stroke="#b9854a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 32 V144" fill="none" stroke="#f2d5aa" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M140 141 L164 165" fill="none" stroke="#f2d5aa" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="132" cy="132" r="22" fill="none" stroke="#f2d5aa" stroke-width="8"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260" role="img" aria-labelledby="title desc">
+  <title id="title">舒广伟律师医疗健康法律服务 Logo 方案</title>
+  <desc id="desc">以舒字印章、病历路径、医学判断和法律秩序为核心的个人品牌 Logo</desc>
+  <rect width="980" height="260" fill="#fbfaf6"/>
+
+  <g transform="translate(64 46)">
+    <rect x="0" y="0" width="168" height="168" rx="26" fill="#102b2e"/>
+    <rect x="14" y="14" width="140" height="140" rx="18" fill="none" stroke="#b9854a" stroke-width="3"/>
+    <path d="M45 48 H104 C113 48 120 55 120 64 V126" fill="none" stroke="#f2d5aa" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45 79 H75 L84 64 L98 105 L111 82 H125" fill="none" stroke="#f2d5aa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M46 122 C61 113 79 113 96 122" fill="none" stroke="#b9854a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M119 126 L139 146" fill="none" stroke="#f2d5aa" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="112" cy="119" r="20" fill="none" stroke="#f2d5aa" stroke-width="7"/>
+    <text x="34" y="137" fill="#ffffff" font-family="'LXGW WenKai','STKaiti','KaiTi','Microsoft YaHei',sans-serif" font-size="62" font-weight="700">舒</text>
+  </g>
+
+  <g transform="translate(272 62)">
+    <text x="0" y="56" fill="#102b2e" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Noto Sans CJK SC','Microsoft YaHei',Arial,sans-serif" font-size="48" font-weight="800">舒广伟律师</text>
+    <text x="2" y="103" fill="#42545b" font-family="'HarmonyOS Sans SC','Source Han Sans SC','Noto Sans CJK SC','Microsoft YaHei',Arial,sans-serif" font-size="24" font-weight="500">医疗健康法律服务</text>
+    <path d="M3 132 H386" fill="none" stroke="#d7ddd8" stroke-width="2" stroke-linecap="round"/>
+    <text x="2" y="168" fill="#8a6b3c" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">MEDICAL LAW · RECORD REVIEW · RATIONAL PATH</text>
+  </g>
+</svg>
