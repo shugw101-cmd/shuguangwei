@@ -50,8 +50,8 @@ const searchPages = [
     title: "医疗纠纷案件初步评估",
     category: "服务产品",
     url: "products/initial-assessment.html",
-    summary: "围绕病历资料、诊疗经过、争议焦点和处理路径形成初步判断。",
-    keywords: "产品 评估 病历 诊疗经过 医疗纠纷"
+    summary: "初步评估不是承诺胜诉或赔偿金额，而是帮助看清事实、证据、风险和下一步路径。",
+    keywords: "产品 评估 病历 诊疗经过 医疗纠纷 风险 路径"
   },
   {
     title: "服务产品目录",
@@ -80,6 +80,13 @@ const searchPages = [
     url: "services/hospital-counsel.html",
     summary: "为医院、诊所、医科院校等主体提供日常法律顾问、风险防控和纠纷预防。",
     keywords: "医疗机构 法律顾问 医院 诊所 风险防控"
+  },
+  {
+    title: "医疗风险与医患沟通顾问",
+    category: "服务详情",
+    url: "services/risk-communication.html",
+    summary: "围绕医疗风险识别、沟通方案、争议预防和纠纷早期处理提供支持。",
+    keywords: "医疗风险 医患沟通 纠纷预防 风险顾问"
   },
   {
     title: "医药与药事合规",
