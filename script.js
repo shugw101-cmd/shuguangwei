@@ -57,15 +57,15 @@ const searchPages = [
     title: "服务产品目录",
     category: "产品目录",
     url: "products.html",
-    summary: "查看已上线服务产品和后续产品预留入口。",
+    summary: "查看医疗纠纷案件初步评估等服务产品。",
     keywords: "产品目录 服务产品 初步评估"
   },
   {
     title: "医疗健康法律服务",
     category: "服务领域",
     url: "services.html",
-    summary: "医疗纠纷代理、医疗机构顾问、医药合规、养老健康产业法律服务。",
-    keywords: "服务 医疗机构 顾问 合规 养老 医药"
+    summary: "围绕医疗纠纷处理、医疗机构风险防控和医患沟通场景提供法律服务。",
+    keywords: "服务 医疗纠纷 医疗机构 风险防控 医患沟通 合规 养老 医药"
   },
   {
     title: "医疗纠纷代理",
@@ -92,7 +92,7 @@ const searchPages = [
     title: "医药与药事合规",
     category: "服务详情",
     url: "services/pharma-compliance.html",
-    summary: "围绕药事管理、药品经营、合同审查、行业监管和合规建设提供法律支持。",
+    summary: "围绕药品生产经营合规、合同与制度审查、监管应对和争议解决提供法律支持。",
     keywords: "医药 药事 合规 药品 监管 合同"
   },
   {
