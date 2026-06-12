@@ -68,7 +68,7 @@ const searchPages = [
     keywords: "服务 医疗纠纷 医疗机构 风险防控 医患沟通 合规 养老 医药"
   },
   {
-    title: "医疗纠纷代理",
+    title: "医疗纠纷案件代理",
     category: "服务详情",
     url: "services/medical-disputes.html",
     summary: "围绕医学事实、证据组织、责任判断和程序路径提供医疗纠纷法律支持。",
