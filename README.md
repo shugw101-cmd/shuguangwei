@@ -1,20 +1,25 @@
 # 舒广伟律师个人网站
 
-这是一个可直接打开的静态个人网站，主要文件如下：
+纯静态HTML网站，共用styles.css与script.js，保留原有域名和部署方式。
 
-- `index.html`：网页内容
-- `styles.css`：页面样式
-- `script.js`：移动端导航和年份显示
-- `assets/portrait-hero.jpg`：首页使用的形象照压缩版
-- `assets/portrait.jpg`：后续页面可使用的形象照压缩版
-- `assets/portrait-original.jpg`：原始形象照备份
+## 医疗损害鉴定专题
 
-## 本地查看
+专题入口：medical-appraisal/index.html。
 
-直接用浏览器打开 `index.html` 即可预览。
+已完成两篇正式正文：
+- medical-appraisal/result-disagreement.html：对医疗损害鉴定结果不满意，怎么办？
+- medical-appraisal/case-40-to-60.html：真实案例：医疗损害鉴定已经作出，结果不满意，还有办法吗？——一个从40%到60%的真实案件
 
-## 后续建议
+其他28题保持待撰写，不生成空白文章页。两篇文章已双向关联，目录、搜索、sitemap同步更新。
 
-1. 后续如需更换形象照，替换 `assets/portrait-hero.jpg` 和 `assets/portrait.jpg` 即可。
-2. 补充律所地址、邮箱、微信二维码和执业证号。
-3. 如需上线，可选择购买域名后部署到 GitHub Pages、Vercel 或国内服务器。
+## 当前有效文件
+
+本目录HTML为当前有效网站稿。作者原稿、内容状态和检查记录在本次“2026-09-15_网站上线准备”交付资料中单独保存，不上传内部资料。
+
+早期专题生成器及其全草稿数据属于历史工作版本，不要用来覆盖本目录。当前内容维护索引为本次交付“内容维护/当前内容索引.json”。以后新增文章时同步HTML、目录、搜索、sitemap及该索引。
+
+## 预览和发布
+
+可使用静态服务器预览，例如python -m http.server 8000 --bind 127.0.0.1。
+仅上传网站公开文件，勿上传原稿、备份或内部记录。robots.txt与sitemap.xml沿用现有文件。现有项目没有test/build/lint命令。
+两篇新文章尚未填写发布日期；应按实际上线日期填写，不以收稿或预览日期代替。

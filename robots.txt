@@ -1,3 +1,4 @@
+# Public static content only. OAI-SearchBot follows the wildcard policy below.
 User-agent: *
 Allow: /
 

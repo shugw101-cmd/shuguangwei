@@ -26,6 +26,27 @@ const searchForm = document.querySelector(".site-search-form");
 
 const searchPages = [
   {
+  "title": "真实案例：医疗损害鉴定已经作出，结果不满意，还有办法吗？——一个从40%到60%的真实案件",
+  "category": "医疗损害鉴定 · 真实案例",
+  "url": "medical-appraisal/case-40-to-60.html",
+  "summary": "医疗损害鉴定已经作出，并不意味着结果就一定无法改变。不是因为患者“觉得40%太低”，而是要看这份鉴定意见的事实基础、医学判断和推理过程，究竟有没有值得质疑的地方。",
+  "keywords": "医疗损害鉴定 真实案例 原因力 参与度 鉴定人出庭 重新鉴定"
+},
+  {
+  "title": "对医疗损害鉴定结果不满意，怎么办？",
+  "category": "医疗损害鉴定 · 鉴定结果与异议",
+  "url": "medical-appraisal/result-disagreement.html",
+  "summary": "医疗损害鉴定结果对患方不利，并不意味着案件一定没有继续争取的空间。但首先需要明确一点：“对结果不满意”和“鉴定意见存在可以质疑的问题”不是一回事。真正需要审查的通常是鉴定意见的依据和推理过程。",
+  "keywords": "医疗损害鉴定 结果异议 参与度 原因力 鉴定人出庭 重新鉴定"
+},
+  {
+    title: "医疗损害鉴定",
+    category: "医疗纠纷知识库",
+    url: "medical-appraisal/",
+    summary: "按鉴定结果异议、重新鉴定、鉴定人出庭、原因力与诊疗过错查找专题选题。",
+    keywords: "医疗损害鉴定 鉴定异议 参与度 原因力 重新鉴定 鉴定人出庭"
+  },
+  {
     title: "为什么要做“医疗纠纷案件初步评估”？",
     category: "初步评估说明",
     url: "articles/initial-assessment.html",

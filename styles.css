@@ -2032,3 +2032,101 @@ h3 {
     margin-top: 8px;
   }
 }
+
+/* Medical knowledge library: reuse the existing palette, typography and header. */
+.article-list-hero h1 { max-width: 940px; }
+@media (min-width: 921px) {
+  .portal-hero .hero-copy { padding-bottom: 140px; }
+}
+.kb-entry {
+  padding: 44px clamp(24px, 6vw, 88px);
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.kb-entry-inner { max-width: 1180px; margin: 0 auto; }
+.kb-entry h2 { font-size: clamp(26px, 3vw, 36px); }
+.kb-entry p:not(.kicker) { max-width: 900px; color: var(--muted); }
+.kb-entry .kicker { margin-bottom: 12px; }
+.kb-topic-links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+.kb-topic-links a {
+  display: inline-flex; align-items: center; gap: 20px;
+  min-height: 44px; padding: 7px 0;
+  color: var(--deep); border-bottom: 1px solid var(--line); font-weight: 600;
+}
+.kb-topic-links a:hover, .kb-inline-link:hover,
+.kb-question-list a:hover { color: var(--green); text-decoration: underline; }
+.kb-topic-links a:focus-visible, .kb-question-list a:focus-visible,
+.kb-breadcrumb a:focus-visible, .kb-related a:focus-visible {
+  outline: 2px solid var(--copper); outline-offset: 4px;
+}
+.kb-directory-intro h2 { margin-bottom: 20px; font-size: clamp(25px, 3vw, 34px); }
+.kb-breadcrumb { margin-bottom: 22px; font-size: 13px; line-height: 1.65; }
+.kb-breadcrumb ol { display: flex; flex-wrap: wrap; gap: 5px 10px; padding: 0; margin: 0; list-style: none; }
+.kb-breadcrumb li { min-width: 0; overflow-wrap: anywhere; }
+.kb-breadcrumb li + li::before { content: ">"; margin-right: 10px; opacity: .65; }
+.kb-breadcrumb a { color: #f2d5aa; text-decoration: underline; text-underline-offset: 4px; }
+.kb-breadcrumb [aria-current] { color: rgba(255, 255, 255, .8); }
+.kb-topic-hero .kb-author { font-size: 15px; margin-top: 22px; margin-bottom: 0; }
+.kb-author a, .article-meta a { text-decoration: underline; text-underline-offset: 4px; }
+.kb-directory { padding-top: 36px; gap: 34px; }
+.kb-editorial-note { border-left: 3px solid var(--copper); padding: 12px 18px; background: var(--paper); }
+.kb-editorial-note p { margin: 0; color: var(--soft-ink); font-size: 14px; }
+.kb-question-group, .article-category[id] { scroll-margin-top: 124px; }
+.kb-question-group .article-category-title { padding-top: 18px; }
+.kb-question-list { list-style: none; padding: 0; margin: 0; }
+.kb-question-list li {
+  display: grid; grid-template-columns: 30px minmax(0, 1fr) auto;
+  gap: 10px 16px; align-items: baseline;
+  padding: 18px 0; border-bottom: 1px solid var(--line);
+  scroll-margin-top: 124px;
+}
+.kb-question-number { color: var(--muted); font-size: 13px; }
+.kb-question-title, .kb-question-list a { font-size: 18px; line-height: 1.7; overflow-wrap: anywhere; }
+.kb-question-list a { grid-column: 2 / -1; color: var(--deep); }
+.kb-status { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.kb-start-reading { padding: 26px; background: var(--paper); }
+.kb-start-reading h2, .kb-related h2 { font-size: 24px; }
+.kb-start-reading ul, .kb-related ul { padding-left: 22px; }
+.kb-start-reading li, .kb-related li { padding: 5px 0; }
+.kb-start-reading a, .kb-related a, .kb-inline-link,
+.kb-question-page .article-body a { color: var(--green); text-decoration: underline; text-underline-offset: 4px; }
+.kb-inline-link { display: inline-block; padding: 10px 0; }
+.kb-related { width: min(100%, 780px); margin: 0 auto; padding: 0 24px 54px; }
+.kb-question-header { padding-top: 124px; padding-bottom: 32px; }
+.kb-question-header h1 { font-size: clamp(28px, 3.4vw, 44px); }
+.kb-question-header .kb-direct-answer { font-size: 18px; line-height: 1.85; margin-top: 20px; }
+.kb-question-page .article-body h3 { margin: 24px 0 12px; font-size: 22px; }
+@media (max-width: 720px) {
+  .kb-topic-links { gap: 6px 16px; }
+  .kb-topic-links a { font-size: 15px; }
+  .kb-topic-hero { padding-top: 112px; padding-bottom: 38px; }
+  .kb-topic-hero p:not(.kicker) { font-size: 17px; }
+  .kb-question-group .article-category-title { grid-template-columns: 28px minmax(0, 1fr); gap: 12px; }
+  .kb-question-group .article-category-title h2 { font-size: 25px; }
+  .kb-question-list li { grid-template-columns: 22px minmax(0, 1fr); gap: 3px 12px; }
+  .kb-question-list .kb-status { grid-column: 2; }
+  .kb-question-title, .kb-question-list a { font-size: 16px; }
+  .kb-question-header { padding-top: 108px; }
+  .kb-question-header .kb-breadcrumb { font-size: 12px; margin-bottom: 14px; }
+}
+
+
+/* First appraisal article: preserve the approved opening paragraphs. */
+.kb-question-header h1 { max-width: 860px; }
+.kb-question-header .kb-approved-intro p { margin: 0 0 10px; font-size: 18px; line-height: 1.85; }
+.kb-question-header .kb-approved-intro p:last-child { margin-bottom: 0; }
+.kb-final-text > h2:first-child { margin-top: 0; }
+@media (max-width: 720px) {
+  .kb-question-header .kb-approved-intro p { font-size: 17px; line-height: 1.8; }
+}
+
+/* Long-form appraisal case: local preview only. */
+.kb-case-page .kb-question-header h1 { max-width: 860px; font-size: clamp(28px, 3vw, 42px); line-height: 1.35; text-wrap: pretty; }
+.kb-case-text > p:first-child { padding: 18px 22px; border-left: 3px solid var(--copper); background: var(--paper); font-weight: 600; }
+.kb-case-text h2 { scroll-margin-top: 124px; }
+.kb-case-toc { margin-top: 38px; padding: 16px 22px; border: 1px solid var(--line); background: var(--paper); font-size: 15px; }
+.kb-case-toc ol { margin: 0; padding-left: 20px; }
+.kb-case-toc li { padding: 3px 0; }
+.kb-pending-related li { margin-bottom: 12px; }
+.kb-pending-related .kb-status { display: inline-block; margin-left: 10px; }

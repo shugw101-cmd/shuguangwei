@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shuguangwei.com/</loc>
@@ -64,4 +64,7 @@
     <loc>https://shuguangwei.com/articles/no-assessment-no-litigation.html</loc>
     <priority>0.7</priority>
   </url>
-</urlset>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/</loc>
+  </url>
+<url><loc>https://shuguangwei.com/medical-appraisal/result-disagreement.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/case-40-to-60.html</loc></url></urlset>
