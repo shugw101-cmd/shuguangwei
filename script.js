@@ -25,6 +25,41 @@ const searchResults = document.querySelector("#site-search-results");
 const searchForm = document.querySelector(".site-search-form");
 
 const searchPages = [
+{
+  "title": "法院一定会按照医疗损害鉴定的参与度判决吗？",
+  "category": "医疗损害鉴定 · 鉴定结果与异议",
+  "url": "medical-appraisal/court-participation-ratio.html",
+  "summary": "鉴定意见中的参与度并不等同于法院最终确定的责任比例。应当审查数字背后的事实和专业分析，并结合全案证据理解责任判断。",
+  "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
+},
+{
+  "title": "法院不同意重新鉴定，还有其他办法吗？",
+  "category": "医疗损害鉴定 · 重新鉴定与程序",
+  "url": "medical-appraisal/reappraisal-refused.html",
+  "summary": "法院没有同意重新鉴定，并不意味着必须完整接受鉴定意见。围绕具体疑问，还可以通过解释、出庭质证及全案证据审查等方式解决。",
+  "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
+},
+{
+  "title": "什么情况下可以申请医疗损害重新鉴定？",
+  "category": "医疗损害鉴定 · 重新鉴定与程序",
+  "url": "medical-appraisal/reappraisal-conditions.html",
+  "summary": "对鉴定结果不满意，并不当然构成重新鉴定的理由。先审查资格、程序和依据等具体问题，再判断能否通过解释、补充或者质证解决。",
+  "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
+},
+{
+  "title": "医疗损害鉴定中的“参与度”是什么意思？",
+  "category": "医疗损害鉴定 · 原因力与参与度",
+  "url": "medical-appraisal/participation-meaning.html",
+  "summary": "参与度主要回答医方过错对损害后果起了多大作用。比百分比更重要的是，理解患者自身因素、医疗过错和其他因素如何共同影响损害结果。",
+  "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
+},
+{
+  "title": "对医疗损害鉴定意见有异议，第一步应该做什么？",
+  "category": "医疗损害鉴定 · 鉴定结果与异议",
+  "url": "medical-appraisal/objection-first-step.html",
+  "summary": "“我不同意”，和“这份鉴定意见存在什么问题”，是两件不同的事情。把病历和鉴定意见放在一起，从事实、医学判断、因果关系和原因力大小入手，重新梳理诊疗时间线，再考虑异议与重新鉴定程序。",
+  "keywords": "鉴定意见 异议 第一步 病历 事实 医学判断 因果关系 原因力 诊疗时间线 书面异议 重新鉴定"
+},
   {
   "title": "真实案例：医疗损害鉴定已经作出，结果不满意，还有办法吗？——一个从40%到60%的真实案件",
   "category": "医疗损害鉴定 · 真实案例",
