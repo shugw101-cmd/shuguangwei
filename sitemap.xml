@@ -6,6 +6,7 @@
   </url>
   <url>
     <loc>https://shuguangwei.com/articles/</loc>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -53,18 +54,55 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://shuguangwei.com/privacy.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://shuguangwei.com/articles/initial-assessment.html</loc>
+    <lastmod>2026-06-09</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://shuguangwei.com/articles/three-points.html</loc>
+    <lastmod>2026-06-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://shuguangwei.com/articles/no-assessment-no-litigation.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://shuguangwei.com/medical-appraisal/</loc>
+    <lastmod>2026-09-21</lastmod>
   </url>
-<url><loc>https://shuguangwei.com/medical-appraisal/result-disagreement.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/case-40-to-60.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/objection-first-step.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/court-participation-ratio.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/reappraisal-refused.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/reappraisal-conditions.html</loc></url><url><loc>https://shuguangwei.com/medical-appraisal/participation-meaning.html</loc></url></urlset>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/participation-meaning.html</loc>
+    <lastmod>2026-07-17</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/result-disagreement.html</loc>
+    <lastmod>2026-07-31</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/objection-first-step.html</loc>
+    <lastmod>2026-08-14</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/reappraisal-conditions.html</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/reappraisal-refused.html</loc>
+    <lastmod>2026-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/court-participation-ratio.html</loc>
+    <lastmod>2026-09-14</lastmod>
+  </url>
+  <url>
+    <loc>https://shuguangwei.com/medical-appraisal/case-40-to-60.html</loc>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+</urlset>

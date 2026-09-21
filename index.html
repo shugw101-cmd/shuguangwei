@@ -10,11 +10,39 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://shuguangwei.com/#website",
-  "url": "https://shuguangwei.com/",
-  "name": "舒广伟律师 | 医疗健康法律服务",
-  "inLanguage": "zh-CN"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://shuguangwei.com/#website",
+      "url": "https://shuguangwei.com/",
+      "name": "舒广伟律师 | 医疗健康法律服务",
+      "inLanguage": "zh-CN",
+      "publisher": {
+        "@id": "https://shuguangwei.com/about.html#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://shuguangwei.com/about.html#person",
+      "name": "舒广伟",
+      "url": "https://shuguangwei.com/about.html",
+      "image": "https://shuguangwei.com/assets/portrait-hero.jpg",
+      "jobTitle": "律师",
+      "telephone": "+86-189-5533-1166",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "浙江京衡（芜湖）律师事务所"
+      },
+      "knowsAbout": [
+        "医疗纠纷案件代理",
+        "医疗损害鉴定",
+        "医疗机构法律顾问",
+        "医疗风险与医患沟通",
+        "医药与药事合规",
+        "养老健康产业法律服务"
+      ]
+    }
+  ]
 }
   </script>
 </head>
@@ -108,7 +136,7 @@
       <div class="search-entry-inner">
         <p class="kicker">Content Search</p>
         <form class="site-search-form" role="search" aria-label="站内内容检索">
-          <input id="site-search-input" type="search" placeholder="输入关键词：病历、评估、医疗纠纷" autocomplete="off">
+          <input id="site-search-input" type="search" placeholder="输入关键词：病历、评估、医疗纠纷" autocomplete="off" data-clarity-mask="true">
           <button type="submit">检索</button>
         </form>
         <div id="site-search-results" class="site-search-results" aria-live="polite"></div>

@@ -1,3 +1,15 @@
+// Microsoft Clarity site analytics. Project: ylsupbo0xq.
+(function (c, l, a, r, i, t, y) {
+  c[a] = c[a] || function () {
+    (c[a].q = c[a].q || []).push(arguments);
+  };
+  t = l.createElement(r);
+  t.async = 1;
+  t.src = `https://www.clarity.ms/tag/${i}`;
+  y = l.getElementsByTagName(r)[0];
+  y.parentNode.insertBefore(t, y);
+})(window, document, "clarity", "script", "ylsupbo0xq");
+
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".site-nav");
 
@@ -18,6 +30,21 @@ if (toggle && nav) {
 const year = document.querySelector("#year");
 if (year) {
   year.textContent = new Date().getFullYear();
+}
+
+const footer = document.querySelector(".site-footer");
+if (footer && !footer.querySelector(".privacy-link")) {
+  const scriptElement = document.currentScript;
+  const siteRoot = scriptElement
+    ? new URL(".", scriptElement.src)
+    : new URL(".", window.location.href);
+  const privacyLine = document.createElement("p");
+  const privacyLink = document.createElement("a");
+  privacyLink.className = "privacy-link";
+  privacyLink.href = new URL("privacy.html", siteRoot).href;
+  privacyLink.textContent = "隐私与访问统计说明";
+  privacyLine.appendChild(privacyLink);
+  footer.appendChild(privacyLine);
 }
 
 const searchInput = document.querySelector("#site-search-input");
