@@ -53,6 +53,20 @@ const searchForm = document.querySelector(".site-search-form");
 
 const searchPages = [
   {
+    title: "医疗损害鉴定认定医院参与度40%，是不是就只赔40%？",
+    category: "医疗损害鉴定 · 鉴定结果与异议",
+    url: "medical-appraisal/participation-40-compensation.html",
+    summary: "参与度是医方过错原因力的专业判断，不当然等于法院确定的责任比例或具体赔偿金额。",
+    keywords: "参与度40% 原因力 赔偿比例 医疗损害鉴定"
+  },
+  {
+    title: "治疗后症状越来越严重，医生没有及时修正诊断，要承担责任吗？",
+    category: "医疗损害鉴定 · 诊疗过程与医疗过错",
+    url: "medical-appraisal/diagnosis-reassessment.html",
+    summary: "病情变化后是否应重新评估诊断，以及延误诊断与后续损害的关系。",
+    keywords: "症状加重 修正诊断 延误诊断 医疗过错 因果关系"
+  },
+  {
     title: "患者自身疾病严重，医院就可以少承担责任吗？",
     category: "医疗损害鉴定 · 原因力与参与度",
     url: "medical-appraisal/patient-condition-liability.html",
@@ -88,7 +102,7 @@ const searchPages = [
   "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
 },
 {
-  "title": "法院不同意重新鉴定，还有其他办法吗？",
+  "title": "法院不同意重新鉴定，是不是就没办法了？",
   "category": "医疗损害鉴定 · 重新鉴定与程序",
   "url": "medical-appraisal/reappraisal-refused.html",
   "summary": "法院没有同意重新鉴定，并不意味着必须完整接受鉴定意见。围绕具体疑问，还可以通过解释、出庭质证及全案证据审查等方式解决。",
