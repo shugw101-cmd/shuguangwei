@@ -489,7 +489,6 @@ h3 {
 .position-grid p,
 .service-list p,
 .career p,
-.education-panel dd,
 .featured-paper p,
 .paper-list p,
 .contact-copy p,
@@ -1010,11 +1009,8 @@ h3 {
 }
 
 .credentials-layout {
-  width: min(100%, 1180px);
+  width: min(100%, 1080px);
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.42fr);
-  gap: 42px;
 }
 
 .career {
@@ -1026,54 +1022,41 @@ h3 {
 
 .career li {
   display: grid;
-  grid-template-columns: 180px minmax(0, 0.45fr) minmax(0, 1fr);
-  gap: 28px;
-  padding: 28px 0;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: clamp(28px, 5vw, 76px);
+  padding: clamp(28px, 4vw, 44px) 0;
   border-bottom: 1px solid var(--line);
 }
 
-.career time {
+.career-period {
   color: var(--green);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.career-copy {
+  max-width: 760px;
+}
+
+.career .career-field {
+  margin: 0 0 8px;
+  color: var(--copper);
+  font-size: 14px;
   font-weight: 700;
 }
 
-.career strong {
+.career h3 {
+  margin: 0 0 12px;
+  color: var(--ink);
   font-family: "HarmonyOS Sans SC", "Source Han Sans SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
-  font-size: 22px;
+  font-size: clamp(21px, 2.2vw, 27px);
+  line-height: 1.4;
 }
 
-.career p {
+.career .career-description {
   margin: 0;
-}
-
-.education-panel {
-  align-self: start;
-  padding: 32px;
-  color: var(--white);
-  background: var(--deep);
-}
-
-.education-panel h3 {
-  margin-bottom: 24px;
-}
-
-.education-panel dl {
-  margin: 0;
-}
-
-.education-panel div {
-  padding: 18px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.education-panel dt {
-  color: #f2d5aa;
-  font-weight: 700;
-}
-
-.education-panel dd {
-  margin: 4px 0 0;
-  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.85;
 }
 
 .insight-layout {
@@ -1802,11 +1785,7 @@ h3 {
   }
 
   .career li {
-    grid-template-columns: 160px minmax(0, 1fr);
-  }
-
-  .career p {
-    grid-column: 2;
+    grid-template-columns: 150px minmax(0, 1fr);
   }
 }
 
@@ -2013,7 +1992,6 @@ h3 {
   .position-grid article,
   .service-list article,
   .hub-card,
-  .education-panel,
   .featured-paper,
   .contact-method {
     padding: 24px;
@@ -2023,13 +2001,13 @@ h3 {
     display: block;
   }
 
-  .career strong {
+  .career-period {
     display: block;
-    margin-top: 8px;
+    margin-bottom: 10px;
   }
 
-  .career p {
-    margin-top: 8px;
+  .career h3 {
+    margin-bottom: 10px;
   }
 }
 
