@@ -75,7 +75,7 @@ const searchPages = [
   },
   {
     title: "医生明知患者存在某种风险，是减责因素还是更高注意义务的来源？",
-    category: "医疗损害鉴定 · 原因力与参与度",
+    category: "医疗损害鉴定 · 过错参与度",
     url: "medical-appraisal/known-risk-duty.html",
     summary: "患者自身风险可能影响损害结果，也可能提示医生采取更充分的评估、预防和观察措施。",
     keywords: "患者自身风险 医疗过错 注意义务 风险评估 原因力"
@@ -96,7 +96,7 @@ const searchPages = [
   },
   {
     title: "患者自身疾病严重，医院就可以少承担责任吗？",
-    category: "医疗损害鉴定 · 原因力与参与度",
+    category: "医疗损害鉴定 · 过错参与度",
     url: "medical-appraisal/patient-condition-liability.html",
     summary: "患者自身疾病可能影响原因力判断，但不能仅因病情严重就直接降低医方责任。",
     keywords: "患者自身疾病 基础疾病 医方过错 血栓风险 因果关系 原因力"
@@ -145,7 +145,7 @@ const searchPages = [
 },
 {
   "title": "医疗损害鉴定中的“参与度”是什么意思？",
-  "category": "医疗损害鉴定 · 原因力与参与度",
+  "category": "医疗损害鉴定 · 过错参与度",
   "url": "medical-appraisal/participation-meaning.html",
   "summary": "参与度主要回答医方过错对损害后果起了多大作用。比百分比更重要的是，理解患者自身因素、医疗过错和其他因素如何共同影响损害结果。",
   "keywords": "医疗损害鉴定 参与度 原因力 责任比例 法院 重新鉴定 条件 书面异议 质证 鉴定人出庭"
