@@ -6,7 +6,7 @@
 
 专题入口：medical-appraisal/index.html。
 
-已完成十三篇正式正文：
+已完成十七篇正式正文：
 - medical-appraisal/court-participation-ratio.html：法院一定会按照医疗损害鉴定的参与度判决吗？
 - medical-appraisal/reappraisal-refused.html：法院不同意重新鉴定，是不是就没办法了？
 - medical-appraisal/reappraisal-conditions.html：什么情况下可以申请医疗损害重新鉴定？
@@ -20,8 +20,12 @@
 - medical-appraisal/preoperative-missed-diagnosis.html：手术本身没有做错，术前漏诊其他疾病还要承担责任吗？
 - medical-appraisal/participation-40-compensation.html：医疗损害鉴定认定医院参与度40%，是不是就只赔40%？
 - medical-appraisal/diagnosis-reassessment.html：治疗后症状越来越严重，医生没有及时修正诊断，要承担责任吗？
+- medical-appraisal/review-opinion.html：医疗损害鉴定意见应该怎么审查？
+- medical-appraisal/when-expert-testifies.html：什么情况下应该申请鉴定人出庭？
+- medical-appraisal/written-reply-and-testimony.html：鉴定机构书面回复了异议，还有必要让鉴定人出庭吗？
+- medical-appraisal/known-risk-duty.html：医生明知患者存在某种风险，是减责因素还是更高注意义务的来源？
 
-其他15题保持待撰写，不生成空白文章页。相关文章已相互关联，目录、搜索、sitemap同步更新。
+其他11题保持待撰写，不生成空白文章页。相关文章已相互关联，目录、搜索、sitemap同步更新。
 
 ## 当前有效文件
 

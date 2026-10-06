@@ -53,6 +53,34 @@ const searchForm = document.querySelector(".site-search-form");
 
 const searchPages = [
   {
+    title: "医疗损害鉴定意见应该怎么审查？",
+    category: "医疗损害鉴定 · 重新鉴定与程序",
+    url: "medical-appraisal/review-opinion.html",
+    summary: "沿着鉴定意见的推理过程核对诊疗事实、医学判断及最终结论的依据。",
+    keywords: "鉴定意见审查 鉴定材料 医学判断 事实依据 因果关系 原因力"
+  },
+  {
+    title: "什么情况下应该申请鉴定人出庭？",
+    category: "医疗损害鉴定 · 鉴定人出庭与质证",
+    url: "medical-appraisal/when-expert-testifies.html",
+    summary: "关键问题经过书面回复仍未解决时，评估申请鉴定人出庭的必要性。",
+    keywords: "鉴定人出庭 书面回复 书面异议 医疗损害鉴定 质证"
+  },
+  {
+    title: "鉴定机构书面回复了异议，还有必要让鉴定人出庭吗？",
+    category: "医疗损害鉴定 · 鉴定人出庭与质证",
+    url: "medical-appraisal/written-reply-and-testimony.html",
+    summary: "不能只看鉴定人是否回复，更要看关键事实和原因力问题是否得到正面回答。",
+    keywords: "鉴定机构 书面回复 鉴定人出庭 医学依据 原因力"
+  },
+  {
+    title: "医生明知患者存在某种风险，是减责因素还是更高注意义务的来源？",
+    category: "医疗损害鉴定 · 原因力与参与度",
+    url: "medical-appraisal/known-risk-duty.html",
+    summary: "患者自身风险可能影响损害结果，也可能提示医生采取更充分的评估、预防和观察措施。",
+    keywords: "患者自身风险 医疗过错 注意义务 风险评估 原因力"
+  },
+  {
     title: "医疗损害鉴定认定医院参与度40%，是不是就只赔40%？",
     category: "医疗损害鉴定 · 鉴定结果与异议",
     url: "medical-appraisal/participation-40-compensation.html",
