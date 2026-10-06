@@ -52,6 +52,34 @@ const searchResults = document.querySelector("#site-search-results");
 const searchForm = document.querySelector(".site-search-form");
 
 const searchPages = [
+  {
+    title: "患者自身疾病严重，医院就可以少承担责任吗？",
+    category: "医疗损害鉴定 · 原因力与参与度",
+    url: "medical-appraisal/patient-condition-liability.html",
+    summary: "患者自身疾病可能影响原因力判断，但不能仅因病情严重就直接降低医方责任。",
+    keywords: "患者自身疾病 基础疾病 医方过错 血栓风险 因果关系 原因力"
+  },
+  {
+    title: "医生没有仔细询问病史造成漏诊，要承担责任吗？",
+    category: "医疗损害鉴定 · 诊疗过程与医疗过错",
+    url: "medical-appraisal/medical-history-omission.html",
+    summary: "结合当时的症状、体征和既往病历，判断医生是否尽到必要的病史询问和诊断义务。",
+    keywords: "病史询问 漏诊 医疗过错 间歇性跛行 诊断义务"
+  },
+  {
+    title: "鉴定人出庭，患方律师到底应该问什么？",
+    category: "医疗损害鉴定 · 鉴定人出庭与质证",
+    url: "medical-appraisal/expert-witness-questions.html",
+    summary: "围绕事实依据、医学判断、因果关系和原因力，准备鉴定人出庭时的具体问题。",
+    keywords: "鉴定人出庭 质证 书面异议 患方律师 医学判断 原因力"
+  },
+  {
+    title: "手术本身没有做错，术前漏诊其他疾病还要承担责任吗？",
+    category: "医疗损害鉴定 · 诊疗过程与医疗过错",
+    url: "medical-appraisal/preoperative-missed-diagnosis.html",
+    summary: "手术操作没有明显过错，仍需审查术前诊断、治疗决策及其与损害结果的关系。",
+    keywords: "术前漏诊 手术 医疗过错 治疗顺序 血管疾病 因果关系"
+  },
 {
   "title": "法院一定会按照医疗损害鉴定的参与度判决吗？",
   "category": "医疗损害鉴定 · 鉴定结果与异议",
