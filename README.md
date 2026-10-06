@@ -25,7 +25,7 @@
 - medical-appraisal/written-reply-and-testimony.html：鉴定机构书面回复了异议，还有必要让鉴定人出庭吗？
 - medical-appraisal/known-risk-duty.html：医生明知患者存在某种风险，是减责因素还是更高注意义务的来源？
 
-其他11题保持待撰写，不生成空白文章页。相关文章已相互关联，目录、搜索、sitemap同步更新。
+专题目录仅展示已发表的17篇文章，不显示未完成选题。相关文章已相互关联，目录、搜索、sitemap同步更新。
 
 ## 当前有效文件
 
